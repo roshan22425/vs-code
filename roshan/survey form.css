@@ -1,0 +1,27 @@
+body{
+    background-color: green;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+.form{
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.submit{
+    background-color: green;
+    color: white;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
