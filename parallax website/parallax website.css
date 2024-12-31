@@ -1,0 +1,14 @@
+ssbody{
+    background-image: url('https://0707.agency/_nuxt/image/a0ce85.webp');
+    background-attachment: fixed;
+}
+div{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 140px;
+}
+.project{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+}
