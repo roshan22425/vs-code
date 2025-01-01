@@ -1,0 +1,99 @@
+body{
+    background-image: url('https://media.gettyimages.com/id/1173257070/vector/abstract-blue-soft-background.jpg?s=612x612&w=0&k=20&c=C69dqK-bS0ANU1r4BEJXtOD71pjbI92McmmnqGesy1c=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.logo{
+    display: flex;
+}
+#header{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    color: white;
+    padding: 2px;
+}
+.menu{
+    margin: 10px;
+    padding: 10px;
+}
+#menu{
+    background-color: unset;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+#learning-center{
+    background-color: unset;
+    border: none;
+    font-weight: bold;
+    color: white;
+}
+#about{
+    background-color: unset;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+.buttons button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    height: fit-content;
+}
+.buttons button:hover{
+    background-color: #3eb1f3;
+    color: white;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 3rem;
+}
+.content button{
+    background-color: #3eb1f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    margin-top: 10px;
+}
+.content button:hover{
+    background-color: red;
+    color: white;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+video{
+    width: 40rem;
+    height: 25rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
